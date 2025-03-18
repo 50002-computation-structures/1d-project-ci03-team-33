@@ -1,0 +1,45 @@
+module romb (
+    input address[6],
+    output element[32]
+) {
+    
+    sig b[32]
+    
+    always {
+        case (address) {
+0: b = 32b00001111; // ADD: positive numbers, A=25, B=15, output=40
+1: b = 32b00000001; // ADD: overflow, A=MAX_VALUE (+ve), B=1, output=MIN_VALUE
+2: b = 32b00011110; // SUB: A=45, B=30, output=15
+3: b = 32b00000001; // SUB: check for underflow, A=MIN_VALUE, B=1, output=MAX_VALUE
+4: b = 32h7FFFFF00; // SUB: check Boundary Values(), A=0, B=0x7FFFFF00, output=negative of 0x7FFFFF00
+5: b = 32b00001001; // MUL: Positive values, A=14, B=9, output=126
+6: b = 32b00000000; // MUL: zero multiplication, A=37, B=0, output=0
+7: b = 32b00000001; // MUL: multiplication by 1, A=0x5BBBBBBB, B=1, output=0x5BBBBBBB
+8: b = 32b00000000; // AND: with zero, A=82, B=0, output=0
+9: b = 32hFFFFFFA4; // AND: with complements, A=91, B=-92, output=0
+10: b = 32hFFFFFFFF; // AND: with ones, A=118, B=-1, output=118
+11: b = 32b00000000; // OR: with zeroes, A=89, B=0, output=89
+12: b = 32hFFFFFFFF; // OR: with ones, A=37, B=-1, output=MAX_VALUE
+13: b = 32b00101111; // OR: with self, check for identity, A=47, B=47, output=47
+14: b = 32b00000000; // XOR: identity, A=77, B=0, output=77
+15: b = 32hFFFFFF9B; // XOR: complement, A=100, B=-101, output=MAX_VALUE
+16: b = 32b00001000; // LDR: for A=250, B=8, output=250
+17: b = 32b00000000; // SHL: zero shift, shift amount = 0
+18: b = 32b00011111; // SHL: max shift, shift amount = 31
+19: b = 32b00000100; // SHL: boundary, shift amount = 4
+20: b = 32b00000000; // SHR: zero shift, shift amount = 0
+21: b = 32b00011111; // SHR: max shift, shift amount = 31
+22: b = 32b00000100; // SRA: arithmetic shift right, shift amount = 4
+23: b = 32b0001001;  // CMPEQ: true, comparing 9 and 9
+24: b = 32b0001010;  // CMPEQ: false, comparing 8 and 10
+25: b = 32b0001100;  // CMPLT: true, comparing 11 and 12
+26: b = 32b00000101; // CMPLT: false, comparing 19 and 5
+27: b = 32b00001101; // CMPLT: false, comparing 13 and 13
+28: b = 32b00001111; // CMPLE: true, comparing 14 and 15
+29: b = 32b00000101; // CMPLE: false, comparing 60 and 5
+30: b = 32b00000101; // Division: normal div, A=40, B=5, output=8
+      default: b = 32b0000000;
+        }
+        element = b
+    }
+}

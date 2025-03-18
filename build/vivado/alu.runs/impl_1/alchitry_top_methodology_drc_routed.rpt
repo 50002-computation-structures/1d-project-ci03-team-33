@@ -1,0 +1,696 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Mar 19 01:38:02 2025
+| Host         : ThianFoo running 64-bit major release  (build 9200)
+| Command      : report_methodology -file alchitry_top_methodology_drc_routed.rpt -pb alchitry_top_methodology_drc_routed.pb -rpx alchitry_top_methodology_drc_routed.rpx
+| Design       : alchitry_top
+| Device       : xc7a35tftg256-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 132
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation         | 58         |
+| TIMING-18 | Warning  | Missing input or output delay | 74         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -23.794 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[23]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -23.827 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[23]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -23.965 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[24]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -24.456 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[24]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -24.624 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[22]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -24.669 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[22]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -25.651 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[21]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -25.753 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[21]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -26.377 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[25]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -26.537 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[25]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -28.985 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[27]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -29.026 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[27]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -29.231 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[26]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -29.253 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[26]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -30.074 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[20]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -30.133 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[20]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -30.600 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[28]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -30.617 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[28]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -32.633 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[19]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -32.808 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[19]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -33.074 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[30]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -33.128 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[30]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -33.164 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[29]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -33.182 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[29]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -34.673 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[31]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -34.693 ns between alu_manual/D_asecondthalf_q_reg[3]/C (clocked by clk_0) and alu_manual/D_result_q_reg[31]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -34.822 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[18]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -34.958 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[18]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -37.835 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[17]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -38.073 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[17]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -39.316 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[16]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -39.493 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[16]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -41.198 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[15]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -45.222 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[14]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -46.278 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[13]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -49.616 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[12]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -51.843 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[11]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -55.076 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[10]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -57.261 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[9]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -59.912 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[8]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -6.749 ns between alu_manual/D_bsecondhalf_q_reg[3]_rep/C (clocked by clk_0) and alu_manual/D_nsig_q_reg/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -6.783 ns between alu_manual/D_bsecondhalf_q_reg[3]_rep/C (clocked by clk_0) and alu_manual/D_vsig_q_reg/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -64.033 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[7]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -64.034 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[7]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -66.899 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[6]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -67.050 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[6]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -68.425 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[5]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -68.911 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[5]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -71.509 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[4]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -71.564 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[4]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -75.205 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[3]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -75.696 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[3]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -77.260 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[2]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -77.679 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[2]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -78.934 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[1]_lopt_replica/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -79.361 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[1]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -79.522 ns between alu_manual/D_afirsthalf_q_reg[15]/C (clocked by clk_0) and alu_manual/D_result_q_reg[0]/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -8.729 ns between alu_manual/D_bsecondhalf_q_reg[3]_rep/C (clocked by clk_0) and alu_manual/D_zsig_q_reg/D (clocked by clk_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on io_button[0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on io_button[1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on io_button[2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on io_button[3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on io_button[4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[0][7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[1][7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An input delay is missing on io_dip[2][7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An input delay is missing on rst_n relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An output delay is missing on io_led[0][7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#39 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#40 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#41 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#42 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#43 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#44 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#45 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#46 Warning
+Missing input or output delay  
+An output delay is missing on io_led[1][7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#47 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#48 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#49 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#50 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#51 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#52 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#53 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#54 Warning
+Missing input or output delay  
+An output delay is missing on io_led[2][7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#55 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#56 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#57 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#58 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#59 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#60 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#61 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#62 Warning
+Missing input or output delay  
+An output delay is missing on io_segment[7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#63 Warning
+Missing input or output delay  
+An output delay is missing on io_select[0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#64 Warning
+Missing input or output delay  
+An output delay is missing on io_select[1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#65 Warning
+Missing input or output delay  
+An output delay is missing on io_select[2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#66 Warning
+Missing input or output delay  
+An output delay is missing on io_select[3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#67 Warning
+Missing input or output delay  
+An output delay is missing on led[0] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#68 Warning
+Missing input or output delay  
+An output delay is missing on led[1] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#69 Warning
+Missing input or output delay  
+An output delay is missing on led[2] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#70 Warning
+Missing input or output delay  
+An output delay is missing on led[3] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#71 Warning
+Missing input or output delay  
+An output delay is missing on led[4] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#72 Warning
+Missing input or output delay  
+An output delay is missing on led[5] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#73 Warning
+Missing input or output delay  
+An output delay is missing on led[6] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+TIMING-18#74 Warning
+Missing input or output delay  
+An output delay is missing on led[7] relative to the rising and/or falling clock edge(s) of clk_0.
+Related violations: <none>
+
+
