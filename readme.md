@@ -26,12 +26,12 @@ Rbb : io_button[0]
 Wire sequence button : io_button[1]
 button sequence : io_button[3]
 
-io_led[0][0] = led on rbb
-io_led[0][1] = led on wire 
-io_led[0][7] = led on button
-io_led[0][6] = win or lose indicatore
+* io_led[0][0] = led on rbb
+* io_led[0][1] = led on wire 
+* io_led[0][7] = led on button
+* io_led[0][6] = win or lose indicatore
 
-When modules are completed , the leds light up and timer stops
+When modules are completed, the leds light up and timer stops
 
 
 
