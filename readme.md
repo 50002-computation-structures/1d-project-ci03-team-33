@@ -1,6 +1,16 @@
-Keep Talking and Nobody's FPGA Explodes
+# Keep Talking or the FPGA Explodes
 
-Keep Talking and Nobody’s FPGA Explodes is a high-stakes, real-world electronics puzzle game inspired by Keep Talking and Nobody Explodes created by Steel Crate Games. The twist is, rather than a virtual online game, this is a physical mockup! In this high intensity short duration multi-player game, where one player acts as the Technician, who is hands-on with a real FPGA setup, facing a series of cryptic errors, and potential “disasters” that must be resolved before time runs out, and the accompanying players, the Expert, who will have access to a complex but incomplete documentation manual. Only the Expert has access to the manual and only the Technician has access to the FPGA. This is a game where communication is key. The players must work together to decode the error messages, reconfigure logic circuits and prevent the bomb from exploding within 3 minutes. 
+Keep Talking and Nobody’s FPGA Explodes is a high-stakes, real-world electronics puzzle game inspired by Keep Talking and Nobody Explodes created by Steel Crate Games. The twist is, rather than a virtual online game, this is a physical mockup!
+
+
+**Number of players**: 2+
+
+**Procedure**: The 7 segment displays the timer countdown from 3 minutes. A player, the Expert, is given the instruction manual, while the Technician carries out his orders. Based on the pair’s ability to decode the incomplete instruction to defuse the bomb, the Technician will solve the modules. The game runs for 3 minutes, and ends once the timer runs out, or when the players successfully completes all three modules.
+
+**Winning Condition**: The players complete all three modules to win the game. Otherwise, they lose.
+
+
+## Controls and Displays
 
 There are three modules
 
