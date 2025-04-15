@@ -7,7 +7,7 @@ Keep Talking and Nobody’s FPGA Explodes is a high-stakes, real-world electroni
 
 **Procedure**: The 7 segment displays the timer countdown from 3 minutes. A player, the Expert, is given the instruction manual, while the Technician carries out his orders. Based on the pair’s ability to decode the incomplete instruction to defuse the bomb, the Technician will solve the modules. The game runs for 3 minutes, and ends once the timer runs out, or when the players successfully completes all three modules.
 
-**Winning Condition**: The players complete all three modules to win the game. Otherwise, they lose.\
+**Winning Condition**: The players complete all three modules to win the game. Otherwise, they lose.
 
 
 
