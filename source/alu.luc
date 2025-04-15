@@ -15,7 +15,8 @@ module alu (
     multiplier multiplier1;  // Multiplier unit
     mux_4 mux4_final32[32];  // 32-bit 4-way multiplexer
     mux_4 mux4_final32_1[32];  // Additional 32-bit 4-way multiplexer
-    divider divider1;  // Divider unit
+    //divider divider1;  // Divider unit
+    modulo mod
 
     always {
         // Connect inputs to adder
@@ -49,8 +50,8 @@ module alu (
         multiplier1.b = b;
         
         // Connect inputs to divider
-        divider1.a = a;
-        divider1.b = b;
+        mod.a = a;
+        mod.b = b;
         
         // Set up selectors for first mux chain
         mux4_final32_1.s0 = 32x{alufn[0]};  // First selector bit
@@ -64,7 +65,7 @@ module alu (
             // Connect outputs to first multiplexer
             mux4_final32_1.in[i][0] = adder1.out[i];  // Adder output
             mux4_final32_1.in[i][2] = multiplier1.mul[i];  // Multiplier output
-            mux4_final32_1.in[i][3] = divider1.d[i];  // Divider output (000011 case)
+            mux4_final32_1.in[i][3] = mod.m[i];  // Divider output (000011 case)
             mux4_final32_1.in[i][1] = adder1.out[i];  // Duplicate adder output
             
             // Connect outputs to final multiplexer
