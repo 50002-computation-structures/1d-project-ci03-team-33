@@ -10,6 +10,8 @@ Keep Talking and Nobody’s FPGA Explodes is a high-stakes, real-world electroni
 **Winning Condition**: The players complete all three modules to win the game. Otherwise, they lose.
 
 
+
+
 ## Controls and Displays
 
 There are three modules
